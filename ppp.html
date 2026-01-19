@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ucapan Ulang Tahun</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ppp.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="texture"></div>
+    <div class="gradient"></div>
+    <header class="topbar">
+      <div class="badge">Spesial Hari Ini</div>
+      <button id="musicToggle" class="music-btn" aria-label="Putar musik">
+        <span class="icon">♪</span>
+        <span class="label">Putar lagu</span>
+      </button>
+    </header>
+    <div class="hero-content">
+      <p class="eyebrow">Untuk kamu yang paling berarti</p>
+      <h1>Selamat Ulang Tahun! 🥳</h1>
+      <h1>Asti Rahayu</h1>
+      <p class="lead">
+        Semoga hari ini penuh tawa, cinta, dan kejutan manis.
+      </p>
+      <div class="cta-row">
+        <a href="#gallery" class="btn primary">Lihat kenangan</a>
+        <a href="#message" class="btn ghost">Baca doa</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section id="message" class="card message">
+      <div class="section-heading">
+        <p class="eyebrow">Ucapan manis</p>
+        <h2>Doa & harapan</h2>
+      </div>
+      <p>
+        Semoga langkahmu selalu dimudahkan, rezeki melimpah, kesehatan terjaga, dan kebahagiaan tak pernah redup. Tetaplah menjadi dirimu yang hangat, lembut, dan menginspirasi banyak orang di sekitarmu.
+      </p>
+      <ul>
+        <li>Semoga impianmu satu per satu terwujud dengan cara paling indah.</li>
+        <li>Semoga orang-orang baik selalu mengelilingimu dan mendukung setiap langkah.</li>
+        <li>Semoga hati dan pikiranmu selalu tenang, damai, dan penuh rasa syukur.</li>
+      </ul>
+      <p class="signature">Dengan cinta dan doa terbaik.</p>
+    </section>
+
+    <section id="gallery" class="card gallery">
+      <div class="section-heading">
+        <p class="eyebrow">hehehe</p>
+        <h2>Album mini</h2>
+        <p class="sublead"> Terima kasih sudah hadir.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="photo">
+          <img src="foto1.jpg" alt="Foto pertama" loading="lazy">
+          <figcaption>Selalu percaya diri, selalu ceria.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="foto2.jpg" alt="Foto kedua" loading="lazy">
+          <figcaption>Anggun, manis, dan penuh warna.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card timeline">
+      <div class="section-heading">
+        <p class="eyebrow">Catatan kecil</p>
+        <h2>Hal-hal yang kusyukuri</h2>
+      </div>
+      <div class="timeline-list">
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Hadirnya kamu</h3>
+            <p>Kehangatan dan ketulusanmu selalu membuat hari lebih ringan.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Tawa yang menular</h3>
+            <p>Tawamu seperti musik—membuat suasana jadi hidup.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Impianmu</h3>
+            <p>Aku percaya kamu akan sampai ke sana. Aku selalu mendukung.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="floating-notes" aria-hidden="true">
+      <span>♪</span><span>✦</span><span>♫</span><span>✧</span><span>★</span>
+    </div>
+    <p>Hari ini milikmu. Yuk, rayakan sepenuh hati! ✨</p>
+    <p>SEMANGAT KULIAHNYA YA</p>
+  </footer>
+
+  <audio id="birthdaySong" src="lagu.mp3" preload="auto"></audio>
+  <div id="confetti"></div>
+  <script src="ppp.js"></script>
+</body>
+</html>
